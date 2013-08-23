@@ -1,0 +1,30 @@
+html, body {
+  background-color: #E9DEB0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ui-toolbar-item {
+  position: relative;
+  color: #FFFFFF;
+  text-decoration: none;
+
+  margin-left: 10px;
+  height: 40px;
+}
+
+/*.ui-toolbar-item.shrinked {
+  display: block;
+}*/
+
+.ui-toolbar-item:hover, .ui-toolbar-item:focus {
+  color: #FFA588;
+}
+
+.ui-toolbar-item:first-child {
+  margin-left: 0;
+}

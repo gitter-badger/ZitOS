@@ -1,0 +1,66 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.top-bar {
+  background-color: #027B7F;
+  color: #FFFFFF;
+  cursor: default;
+
+  font-family: "Segoe UI";
+  line-height: 40px;
+
+  height: 40px;
+  padding: 0 4%;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.zitos {
+  color: #E9DEB0;
+  border-right: 1px #FFFFFF;
+
+  height: 40px;
+  padding: 0 5px;
+  margin-right: 15px;
+}
+
+.top-menu {
+  border-left: 1px solid #DDDDDD;
+  padding-left: 15px;
+}
+
+.zitos, .top-menu {
+  display: inline;
+}
+
+@media screen and (max-width: 800px) {
+  .top-bar {
+    height: 80px;
+    padding: 0;
+  }
+
+  .zitos, .top-menu {
+    display: block;
+  }
+
+  .zitos {
+    text-align: center;
+    width: 100%;
+  }
+
+  .top-menu {
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 40px;
+    margin: 0 auto;
+    border-top: 1px solid #DDDDDD;
+    border-left: 0;
+    text-align: center;
+    padding: 0;
+  }
+}
